@@ -1,0 +1,36 @@
+<style media="screen">
+   @font-face {
+      font-family: 'IconiciFill';
+      src: url('iconic_fill.woff') format ('woff');
+      font-weight: normal;
+      font-style: normal;
+   }
+   h1.icon-next {
+      color: blue;
+   }
+   .icon-next::after {
+      content: '\2192';
+      font-family: 'IconicFill';
+      margin-left: 10px;
+   }
+   .icon-ok {
+      color: #489D00;
+   }
+   .icon-ok::before {
+      content: '\2714';
+      font-family: 'IconicFill';
+      margin-right: 10px;
+   }
+   .icon-invalid {
+      color: #990000;
+   }
+   .icon-invalid::before {
+      content: '\2718';
+      font-family: 'IconicFill';
+      margin-right: 10px;
+   }
+</style>
+<h1 class="icon-next">Avançar</h1>
+<h1 class="icon-next">Ir para a próxima página</h1>
+<p class="icon-ok">E-mail enviado com sucesso!</p>
+<p class="icon-invalid">Atenção, preencha todos os campos do formulário</p>

@@ -1,0 +1,7 @@
+p {
+   background-color: LimeGreen;
+}
+span {
+   background-color: LightBlue;
+   display: inline-block;
+}

@@ -1,0 +1,16 @@
+figure {
+   position: relative;
+}
+img {
+   display: block;
+}
+figcaption {
+   background-color: #000;
+   background-color: rgba(0, 0, 0, 0.5);
+   color: #FFF;
+   bottom: 5px;
+   margin: 0 5px;
+   padding: 5px;
+   position: absolute;
+   width: 300px;
+}

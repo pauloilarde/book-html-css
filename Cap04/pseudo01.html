@@ -1,77 +1,31 @@
-<style media="screen">
-   .help {
-      background-color: #F1EFE6;
-      border: 1px solid #D3CDAE;
-      font-size: 0.9em;
-      padding: 10px;
-      position: relative;
-      width: 300px;
-   }
-   .help::before {
-      border-color: transparent #D3CDAE transparent transparent;
-      border-style: solid;
-      border-width: 14px;
-      content: '';
-      left: -28px;
-      margin-top: -14px;
-      position: absolute;
-      top: 50%;
-   }
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Pseudoelementos 01</title>
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/pseudo01.css">
+   </head>
+   <body>
+      <p class="help">
+         Preencha o campo com um e-mail válido, assim poderemos entrar em contato
+         com você para informar o resultado do nosso concurso.
+      </p>
 
-   .tip::before {
-      content: '\261E';
-      margin-right: 10px;
-   }
-   blockquote {
-      color #444;
-      font-style: italic;
-   }
-   blockquote::before, blockquote::after {
-      color: #000;
-      font-size: 3em;
-   }
-   blockquote::before {
-      content: '\201C';
-   }
-   blockquote::after {
-      content: '\201D';
-   }
+      <p class="tip">
+         Você sabia que...
+      </p>
 
-   .button {
-      background-color: #999999;
-      color: white;
-      display: inline-block;
-      font-weight: bold;
-      padding: 0.5em 1em;
-      text-decoration: none;
-   }
-   .primary-button {
-      background-color: #389739;
-   }
-   .big-button {
-      font-size: 1.1em;
-   }
-   .small-button {
-      font-size: .9em;
-   }
-</style>
-<p class="help">
-   Preencha o campo com um e-mail válido, assim poderemos entrar em contato
-   com você para informar o resultado do nosso concurso.
-</p>
-
-<p class="tip">
-   Você sabia que...
-</p>
-
-<blockquote>
-   O problema com citações na internet pe que você não pode confirmar sua veracidade.
-</blockquote>
+      <blockquote>
+         O problema com citações na internet pe que você não pode confirmar sua veracidade.
+      </blockquote>
 
 
-<a href="#" class="button primary-button big-button">
-   Enviar mensagem
-</a>
-<a href="#" class="button small-button">
-   Cancelar
-</a>
+      <a href="#" class="button primary-button big-button">
+         Enviar mensagem
+      </a>
+      <a href="#" class="button small-button">
+         Cancelar
+      </a>
+   </body>
+</html>

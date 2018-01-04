@@ -19,3 +19,19 @@ textarea {
 textarea {
     height: 100px;
 }
+
+.hint {
+    background-color: #FFFBE4;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    display: none;
+    font-size: 0.8em;
+    margin-left: 20px;
+    padding: 3px;
+}
+
+input:focus + .hint,
+textarea:focus + .hint {
+    display: inline-block;
+}

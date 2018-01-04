@@ -1,0 +1,21 @@
+label {
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: bold;
+    width: 90px;
+}
+
+input,
+textarea {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid #CCC;
+    box-shadow: inset 2px 2px 2px #EEE;
+    font-size: 0.9em;
+    padding: 2px 5px;
+
+}
+
+textarea {
+    height: 100px;
+}

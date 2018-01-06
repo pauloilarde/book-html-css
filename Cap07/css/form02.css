@@ -19,7 +19,30 @@ input[type="password"] {
 }
 
 button {
+    background-color: #6DA033;
+    background-image: linear-gradient(to top, #6DA033 47%, #87C442 55%);
+    border: 1px solid #588129;
+    border-radius: 13px;
+    box-shadow: inset 0 1px 0 rgba(255, 250, 255, 0.5);
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
     margin-top: 5px;
+    padding: 5px 10px;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    background-color: #618F2D;
+    background-image: linear-gradient(to top, #618F2D 47%, #79B238 55%);
+    border-color: #4E7324;
+}
+
+button:active {
+    background-color: #618F2D;
+    background-image: none;
+    border-color: #405E1E;
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.15);
 }
 
 ::-webkit-input-placeholder {

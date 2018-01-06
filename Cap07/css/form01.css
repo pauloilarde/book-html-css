@@ -43,3 +43,30 @@ textarea:focus + .hint {
     font-style: italic;
     margin: 5px 0 0 90px;
 }
+
+button {
+    background-color: #E5E5E5;
+    background-image: linear-gradient(to bottom, #FFF, #E5E5E5);
+    border: 1px solid #AAA;
+    border-radius: 3px;
+    color: #000;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: #285582;
+    background-image: linear-gradient(to bottom, #3775B3, #285582);
+    border-color: #204569;
+    box-shadow: inset 0 1px 0 rgba(255, 250, 250, 0.3), 0 0 3px #3775B3;
+    color: #FFF;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.6);
+}
+
+button:active{
+    background-color: #204569;
+    background-image: none;
+    border-color: #1A3754;
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.15);
+}

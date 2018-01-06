@@ -1,0 +1,41 @@
+label {
+    display: none;
+}
+
+input {
+    font-weight: bold;
+    display: block;
+    border-radius: 3px 3px 0 0;
+    border: 1px solid #999;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+/* TODO: esse seletor exclusivo do campo senha não funciona */
+input[type="password"] {
+    border-radius: 0 0 3px 3px;
+    border-top: none;
+}
+
+button {
+    margin-top: 5px;
+}
+
+::-webkit-input-placeholder {
+    color: #666;
+    font-style: italic;
+    font-weight: normal;
+}
+
+::-moz-placeholder {
+    color: #666;
+    font-style: italic;
+    font-weight: normal;
+}
+
+-ms-input-placeholder {
+    color: #666;
+    font-style: italic;
+    font-weight: normal;
+}
